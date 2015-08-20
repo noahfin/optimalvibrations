@@ -1,0 +1,467 @@
+.content {
+    padding: 0 15px;
+    z-index: 9999;
+    margin: 0 auto;
+    width: 970px;
+   
+
+}
+/* Navigation Section --------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+    .top-navigation {
+        
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        border-bottom: 4px solid gray;
+        z-index: 9999;
+        height: 110px;
+    }
+
+
+
+    .top-navigation > .content {
+        padding: 0 3px;
+        height: 7rem;
+        width: 60%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: #838994;
+
+    }
+    
+
+    .top-navigation .links {
+        float: right;
+        color: #838994;
+        font-size: 1.5rem;
+        margin-top: 4.4rem;
+        
+    }
+.top-navigation  >  .glyphicon-eye-open{
+   margin-top:  5px;
+}
+        .top-navigation a:link {
+        color: #838994;
+        text-decoration: none;
+    }
+
+    .active >a:link {
+    color: #4c5058;
+    }
+    .top-navigation .links li {
+        display: inline-block;
+        margin-left: 25px;
+        margin-top: -3px;
+       color: #838994;
+    }
+    .top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+    }
+    .top-navigation .links li:hover {
+        cursor: pointer;
+        color: #333333;
+    }
+.top-navigation .logo {
+        width: 62px;
+        height: 118px;
+        background-color: #5F9EA0;
+        border-color: #f15a29;
+        text-shadow: none;
+        border-style: none;
+        border-radius: 2px;
+        padding-top: 6px;      
+        color: #F4A460;            
+        position: fixed;
+        margin-top: 1.7rem;       
+        text-align: center;
+        box-shadow:#000 2px 2px 2.5px;
+        float: right;
+        margin-left: 20.6rem;
+        font-size: 2.6
+        
+
+    }
+    .top-navigation p{
+        padding-top: 40px;
+
+    }
+
+       .nav-logo {
+     font-size: 1.8em; 
+     color:  #00868B;
+     padding-right: .5rem; 
+    
+}
+
+  .glyphicon-eye-open{
+  
+  }
+
+/** The Introduction section--  #e6e7e9; ----------------------------------------------------------------------------------------------------------------------
+*/    
+    .intro-content{
+         text-align: center;
+         background-color: #e6e7e9; 
+         background-image: url('../images/big-image.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: 20 bottom;
+         height: 65.4rem;
+         width: 100%;
+         overflow: auto;
+     
+         border-bottom: 4px solid gray;
+    
+        
+    }
+
+    
+    .tilte-content > h1,  .tilte-content >h3{         
+        
+        font-weight: 300;
+      
+
+
+    }
+   .tilte-content > h1 {
+        
+      margin-bottom: 20px;
+        font-size: 50px;
+       
+            }
+   .intro-content > p {
+       margin-top: 10px;
+       padding: 40px;
+       font-size: 1.8rem;
+       margin-bottom: 50px;
+       line-height: 200%;
+       color: #c8c8c8;
+       text-align: center;
+    }
+
+
+    .intro-content > h3{
+        margin-top: 5rem;
+        margin-bottom: 6rem;
+        padding-bottom: 4rem;
+        font-size: 25px;
+      color:  #5F9EA0;
+       
+    }
+
+    .big-button{
+        width: 15rem;
+        height: 4.9rem;
+        background-color: #5F9EA0;
+        border-color: #f15a29;
+        text-shadow: none;
+        border-style: none;
+        border-radius: 4px;
+        padding: 1rem 1.5rem;
+        margin-top: 2.5rem;
+        color: white;
+        font-size: 1.525rem;
+    }
+    #big-b{
+        padding-bottom: 12px;
+    }
+    .tilte-content{ 
+        margin-top: 22rem;
+        float: right;
+        margin-right: 20rem;
+    }
+
+/** The Three Case Images section------------------------------------------------------------------------------------------------------------------------
+*/  #about{
+
+  }
+    .about {
+        background-color: #fff;
+        overflow: hidden;
+        padding-bottom: 5rem;
+    
+    }
+    .about .content {
+        margin-top: 12.6rem;
+        padding: none;
+        color: #1d1e21;
+        text-align: center;
+       
+        margin: 30 auto;
+  }
+    .about h2 {
+        font-size: 3.25rem;        
+        font-weight: 300;
+        margin-top: 80px;
+        color:  #5F9EA0;
+        margin-left: 3.4rem;
+    }
+    .about .data> li{
+        width: 33.3333333%;
+        float:left;
+        list-style: none;
+    }
+  .about .data li > .data-iamge{     
+        height: 130px;
+        width: 130px;
+        background-color: #b4b8be;
+        border-color: #f15a29;
+        text-shadow: none;
+        border-style: none;
+        text-align: center;
+        border-radius: 65px; 
+        margin-right: auto;
+        margin-left: auto;  
+        margin-top: 20px;
+        margin-bottom: 2rem;           
+      
+    }
+ .about .data li .data-iamge > p{
+        font-size: 6.25rem;
+        margin-top: 3.1rem;
+
+
+    }
+    .head3{
+        font-weight: 400;
+        font-size: 2.563rem;
+        margin: 2.5rem 0px 1.875rem;
+        text-align: center;
+        color: #333333;
+        margin-bottom: 5rem;
+
+    }
+    .about .data p {
+        font-weight: 300;
+        font-size: 2.313rem;
+        margin-bottom: 100px;
+        padding-bottom: 10rem;
+       
+
+    }
+
+/**
+* HOW IT WORKS SECTION!------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+.about p {
+margin: auto;
+    width: 75%;
+}
+
+    .how-content{
+         text-align: center;
+         background-color: #e6e7e9; 
+         background-image: url('../images/notes.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: 20 bottom;
+         height: 65.4rem;
+         width: 100%;
+         overflow: auto;
+         border-bottom: 4px solid gray;
+    
+    }
+  .notes-content{ 
+    color: white;
+        margin-top: 42rem;
+        float: right;
+        margin-right: 23rem;
+    }
+.about .steps-to-do{
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    margin-left: 28rem;
+    list-style: none;
+}
+
+*
+* store SECTION!------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+.clear{
+    clear: both;
+}
+ #primary{
+    width: 40%;
+    float: left;
+  }
+   #secondary{
+      width: 40%;
+      float: right;
+  }
+  
+#primary h3, #secondary h3{
+   margin-bottom: 2rem;
+ }
+ #primary h3{
+   margin-right:  -2rem;
+}
+
+.space{
+height: 15rem;
+width: 100%;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+.buy-header{
+    font-size: 30px;
+    margin-left: 22rem;
+    margin-bottom: 4rem;
+ 
+}
+.contact-info{
+ list-style: none;
+ 
+  padding:0;
+  font-size: 0.9em;
+}
+.contact-info{
+display: block;
+ 
+margin-left: 50px;
+margin-top: 4px;
+}
+
+.btn-success{
+    width: 100%;
+    height: 5rem;
+    padding-top: 4rem;
+    
+}
+
+.contact-link {
+  margin-top: -25px;
+  margin-right: 40px;
+  padding-bottom: 5px;
+  float: right;
+
+}
+.contact-link p{
+    text-align: left;
+    margin-bottom: 1rem;
+
+}
+#gram-link{
+-margin-top: -40px;
+}
+#secondary h3, #primary h3 {
+  margin-left: 3.1rem;
+ 
+}
+.instagram{
+  margin-left: -5px;
+}
+.instagram p , .mail p {
+  margin-left: -2px;
+  text-align: left;
+  width: 5px;
+  padding-bottom: 4px;
+}
+
+.space p{
+    margin-top: 1rem;
+    position: relative;
+}
+
+ .mail > #r-icon{
+    padding-right: .5rem;
+    margin: right;
+    margin-left;}
+    
+.info{
+    height: 20rem;
+    margin-top: 12rem;
+}
+.space2{
+    height: 50px;
+}
+
+
+ .footer .unsplash{
+  padding-top: -px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 780px) {
+    .top-navigation .logo {
+      margin-left: 4.6rem;
+    }
+ 
+  .about .data {
+        width: 53.3333333%;
+          margin-left: -8.6rem;
+          margin-top: -16rem;
+     }
+   .about .data> li{
+        width: 24.3333333%;
+        float:left;
+        list-style: none;
+        padding-right: 25px;
+      }
+      .about .data li > .data-iamge{     
+        height:80px;
+        width: 80px;   
+
+      margin-left: -4rem;
+      margin-right: -4rem;
+
+    }
+    .about .data li .data-iamge > p{
+        font-size: 3.25rem;
+        margin-top: 2.1rem;
+
+
+    }   #primary .box{
+        margin-bottom: 5px;
+    }
+     .notes-content{ 
+        margin-top: 42rem;
+       color: #fff;
+        margin-right: 3rem;
+
+    }
+      .tilte-content{ 
+        margin-top: 42rem;
+       color: #fff;
+        margin-right: 2rem;
+    }
+  #primary{
+    width: 100%;
+  margin-bottom: 10px;
+  }
+    #primary .btn-success{
+  margin-bottom: 2px;
+   }
+   #secondary{
+    height: 110%;
+    padding-top: 5px;
+    margin-top: 10px;
+      width: 100%;
+      float: none;
+  }
+  .buy-header{
+    margin-left: 22px;
+  }
+  #big-ps{
+    float: left;
+  margin-top: 40px;
+}
+.about{
+float: left
+} 
+}
