@@ -495,7 +495,7 @@ float: left
     .about p {
    
     width: 95%;
-      font-size: 3rem;
+      font-size: 5rem;
 }
 
   .notes-content{ 
@@ -512,15 +512,37 @@ float: left
   
         margin-right: 4rem;
     }
+    .tilte-content h1{
+      font-size: 5.7rem;
+    }
+    .tilte-content > #big-b{
+      font-size: 3.1rem;
+     
+
+    }
+    .tilte-content > .btn{
+    width: 90px;
+     
+
+    }
+
     .how-content, .intro-content{     
          height: 60rem;
-         width: 978px;
+         width: 990px;
          overflow: auto;
         
          padding-bottom: 8rem;
     
     }
-    .about h3 {   font-size: 5rem; }
+    .about h3 {   font-size: 8rem; }
+    
+
+
+     .tilte-content > #big-button{
+        width: 32rem;
+        height: 7.9rem;
+    }
+
     .me{
       height: 200%;
       width: auto;
@@ -569,11 +591,15 @@ float: left
     margin-left: 22px;
      font-size: 6.7rem;
   }
- .about .steps-to-do{
-    text-align: left;
+  .btn-success{
    
-    margin-left: 18rem;
+    height: 10rem;
    
+
+}
+ .steps-to-do{
+  width: 75%;
+}
 
 
     }
