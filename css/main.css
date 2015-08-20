@@ -179,7 +179,7 @@
   }
     .about {
         background-color: #fff;
-        overflow: hidden;
+       
         padding-bottom: 5rem;
     
     }
@@ -380,8 +380,10 @@ margin-top: 4px;
     
 .info{
     height: 20rem;
-    margin-top: 12rem;
-}
+   position: relative;
+   margin-top: 12rem;
+
+   }
 .space2{
     height: 50px;
 }
@@ -464,4 +466,114 @@ margin-top: 4px;
 .about{
 float: left
 } 
+.info{
+   
+   margin-top: -15rem;
+   }
+ .btn div:first-line {
+    font-size:60px
 }
+}
+@media only screen and (max-device-width: 480px) {
+  body{
+     width: 819px;
+  }
+ .btn > p {
+
+    font-size: 50px;
+ 
+}
+.top-navigation {
+        
+         width: 978px;
+        position: fixed;
+      
+       
+        height: 110px;
+    }
+
+    .about p {
+   
+    width: 95%;
+      font-size: 3rem;
+}
+
+  .notes-content{ 
+        margin-top: 32rem;
+       color: #fff;
+        margin-right: 4rem;
+
+
+    }
+
+       .tilte-content{ 
+        margin-top: 22rem;
+        color: gray;
+  
+        margin-right: 4rem;
+    }
+    .how-content, .intro-content{     
+         height: 60rem;
+         width: 978px;
+         overflow: auto;
+        
+         padding-bottom: 8rem;
+    
+    }
+    .about h3 {   font-size: 5rem; }
+    .me{
+      height: 200%;
+      width: auto;
+      margin-top: -8rem;
+      margin-bottom: 7rem;
+
+    }
+     .top-navigation .links {
+        margin-left: 10px;
+        font-size: 2.7rem;
+        margin-top: 3.7rem;
+        
+    }
+     .nav-logo {
+  display: none;
+    
+}
+.top-navigation .logo {
+  margin-left: 12rem;
+  }
+ .about .data {
+        width: 100%;
+         margin: auto;
+          margin-top: -16rem;
+     }
+      #primary{
+    width: 100%;
+    float: left;
+  }
+   #secondary{
+    margin-top: 4rem;
+    bottom: 4rem;
+      width: 100%;
+     
+  }
+  #wrapper {
+  width: 978px;
+  margin: 0 auto;
+   font-size: 4.7rem;
+  
+}
+.store-footer{
+  display: none;
+}
+   .buy-header{
+    margin-left: 22px;
+     font-size: 6.7rem;
+  }
+ .about .steps-to-do{
+    text-align: left;
+   
+    margin-left: 18rem;
+   
+
+
+    }
