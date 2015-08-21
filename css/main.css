@@ -438,7 +438,7 @@ margin-top: 4px;
 
 .about #big-ps{
   text-align: left;
-  width: px;
+  
 }
      #primary .box{
         margin-bottom: 5px;
@@ -513,9 +513,9 @@ float: left
 }
 
   .notes-content{ 
-        margin-top: 32rem;
+        margin-top: 128rem;
        color: #fff;
-        margin-right: 4rem;
+        margin-right: 60rem;
 
 
     }
@@ -524,10 +524,10 @@ font-size: 5rem;
     }
 
        .tilte-content{ 
-        margin-top: 22rem;
-        color: gray;
+        margin-top: 111rem;
+        color: white;
   
-        margin-right: 4rem;
+        margin-right: 2rem;
     }
     .tilte-content h1{
       font-size: 5.7rem;
@@ -544,9 +544,11 @@ font-size: 5rem;
     }
 
     .how-content, .intro-content{     
-         height: 60rem;
+         height: 150rem;
          width: 990px;
          overflow: auto;
+         background-repeat: no-repeat;
+         background-size: cover;
         
          padding-bottom: 8rem;
     
@@ -661,7 +663,7 @@ display: none;
 
   .about .data {
    margin-top: -36rem;
-   margin-bottom: 20rem;
+   margin-bottom: 26rem;
    margin-right: auto;
     margin-left: auto;
 
