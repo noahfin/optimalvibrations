@@ -513,9 +513,9 @@ float: left
 }
 
   .notes-content{ 
-        margin-top: 128rem;
+        margin-top: 118rem;
        color: #fff;
-        margin-right: 60rem;
+        margin-right: 53rem;
 
 
     }
@@ -529,10 +529,10 @@ font-size: 5rem;
   
         margin-right: 2rem;
     }
-    .tilte-content h1{
+    .tilte-content h1, .notes-content h1{
       font-size: 5.7rem;
     }
-    .tilte-content > #big-b{
+    .tilte-content > #big-b, .notes-content > #big-b{
       font-size: 3.1rem;
      
 
