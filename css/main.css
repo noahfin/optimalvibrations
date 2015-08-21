@@ -95,9 +95,7 @@
     
 }
 
-  .glyphicon-eye-open{
   
-  }
 
 /** The Introduction section--  #e6e7e9; ----------------------------------------------------------------------------------------------------------------------
 */    
@@ -196,7 +194,7 @@
         font-weight: 300;
         margin-top: 80px;
         color:  #5F9EA0;
-        margin-left: 3.4rem;
+        
     }
     .about .data> li{
         width: 33.3333333%;
@@ -212,8 +210,8 @@
         border-style: none;
         text-align: center;
         border-radius: 65px; 
-        margin-right: auto;
-        margin-left: auto;  
+        margin-right: auto;        
+        margin-left: 66px;  
         margin-top: 20px;
         margin-bottom: 2rem;           
       
@@ -278,7 +276,9 @@ margin: auto;
     margin-left: 28rem;
     list-style: none;
 }
-
+ .me{
+  margin-top: 12rem;
+ }
 *
 * store SECTION!------------------------------------------------------------------------------------------------------------------------------------
 */
@@ -394,10 +394,15 @@ margin-top: 4px;
 }
 
 
+.about li{
+  list-style: none;
+}
 
 
-
-
+.about > #learn-more a{
+  padding-left: 6rem;
+  margin-left: 20px;
+}
 
 @media screen and (max-width: 780px) {
     .top-navigation .logo {
@@ -406,8 +411,9 @@ margin-top: 4px;
  
   .about .data {
         width: 53.3333333%;
-          margin-left: -8.6rem;
-          margin-top: -16rem;
+          margin-left: 25px;
+
+          margin-top: -26rem;
      }
    .about .data> li{
         width: 24.3333333%;
@@ -428,7 +434,13 @@ margin-top: 4px;
         margin-top: 2.1rem;
 
 
-    }   #primary .box{
+    }  
+
+.about #big-ps{
+  text-align: left;
+  width: px;
+}
+     #primary .box{
         margin-bottom: 5px;
     }
      .notes-content{ 
@@ -438,7 +450,7 @@ margin-top: 4px;
 
     }
       .tilte-content{ 
-        margin-top: 42rem;
+        margin-top: 38rem;
        color: #fff;
         margin-right: 2rem;
     }
@@ -461,7 +473,7 @@ margin-top: 4px;
   }
   #big-ps{
     float: left;
-  margin-top: 40px;
+  margin-top: 12px;
 }
 .about{
 float: left
@@ -474,7 +486,7 @@ float: left
     font-size:60px
 }
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 520px) {
   body{
      width: 819px;
   }
@@ -497,6 +509,10 @@ float: left
     width: 95%;
       font-size: 5rem;
 }
+.about #big-ps{
+  
+    font-size: 4rem;
+}
 
   .notes-content{ 
         margin-top: 32rem;
@@ -504,6 +520,9 @@ float: left
         margin-right: 4rem;
 
 
+    }
+    .about h2{
+font-size: 5rem;
     }
 
        .tilte-content{ 
@@ -552,7 +571,7 @@ float: left
     }
      .top-navigation .links {
         margin-left: 10px;
-        font-size: 2.7rem;
+        font-size: 3.5rem;
         margin-top: 3.7rem;
         
     }
@@ -562,7 +581,13 @@ float: left
 }
 .top-navigation .logo {
   margin-left: 12rem;
+    width: 82px;
+        height: 138px;
   }
+  .top-navigation .logo >  .glyphicon-tint{
+  font-size: 2.5rem;
+}
+ 
  .about .data {
         width: 100%;
          margin: auto;
@@ -574,10 +599,15 @@ float: left
   }
    #secondary{
     margin-top: 4rem;
-    bottom: 4rem;
+    bottom: 6rem;
       width: 100%;
      
   }
+   #primary > h3,
+   #secondary > h3{
+     font-size: 5.5rem;
+    padding-left: 11rem;
+   }
   #wrapper {
   width: 978px;
   margin: 0 auto;
@@ -585,7 +615,7 @@ float: left
   
 }
 .store-footer{
-  display: none;
+  
 }
    .buy-header{
     margin-left: 22px;
@@ -600,6 +630,17 @@ float: left
  .steps-to-do{
   width: 75%;
 }
-
-
+footer .socal-icon{
+  width: 20%;
+  height: 20%;
+}
+.info{
+ 
+}
+#bottom-space{
+  height: 30px;
+  padding: 20px;
+ 
+  margin-top: 136rem;
+}
     }
