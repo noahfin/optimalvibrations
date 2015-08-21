@@ -646,9 +646,26 @@ footer .socal-icon{
  
   margin-top: 136rem;
 }
-  .about .data {
-  
 
-          margin-top: -36rem;
+  .about .data li > .data-iamge{  
+      border-top: 4px solid gray;
+      margin-left: auto;
+      margin-right: auto;}
+    }
+ .about .data li:first-child { 
+display: none;}
+
+ .about .data li:last-child { 
+display: none;
+}
+
+  .about .data {
+   margin-top: -36rem;
+   margin-bottom: 20rem;
+   margin-right: auto;
+    margin-left: auto;
+
      }
+
+
     }
