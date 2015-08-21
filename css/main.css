@@ -487,9 +487,7 @@ float: left
 }
 }
 @media only screen and (max-device-width: 520px) {
-  body{
-     width: 819px;
-  }
+
  .btn > p {
 
     font-size: 50px;
@@ -497,7 +495,7 @@ float: left
 }
 .top-navigation {
         
-         width: 978px;
+         width: 1000px;
         position: fixed;
       
        
@@ -648,4 +646,9 @@ footer .socal-icon{
  
   margin-top: 136rem;
 }
+  .about .data {
+  
+
+          margin-top: -36rem;
+     }
     }
