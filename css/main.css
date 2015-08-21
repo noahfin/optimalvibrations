@@ -509,7 +509,7 @@ float: left
 }
 .about #big-ps{
   
-    font-size: 4rem;
+    font-size: 4.2rem;
 }
 
   .notes-content{ 
@@ -607,7 +607,7 @@ font-size: 5rem;
    #primary > h3,
    #secondary > h3{
      font-size: 5.5rem;
-    padding-left: 11rem;
+    padding-left: 12rem;
    }
   #wrapper {
   width: 978px;
@@ -624,6 +624,7 @@ margin-left: 2rem;
      font-size: 6.7rem;
      margin-bottom: 5rem;
      margin-top: 4rem;
+     padding-left: 3rem;
  
   }
   .btn-success{
