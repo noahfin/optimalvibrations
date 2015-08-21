@@ -513,9 +513,9 @@ float: left
 }
 
   .notes-content{ 
-        margin-top: 118rem;
+        margin-top: 38rem;
        color: #fff;
-        margin-right: 53rem;
+        margin-right: 7rem;
 
 
     }
@@ -529,8 +529,11 @@ font-size: 5rem;
   
         margin-right: 2rem;
     }
-    .tilte-content h1, .notes-content h1{
+    .tilte-content h1{
       font-size: 5.7rem;
+    }
+    .notes-content h1{
+      font-size: 3.7rem;
     }
     .tilte-content > #big-b, .notes-content > #big-b{
       font-size: 3.1rem;
@@ -544,8 +547,7 @@ font-size: 5rem;
     }
 
     .how-content, .intro-content{     
-         height: 150rem;
-         width: 990px;
+                 width: 990px;
          overflow: auto;
          background-repeat: no-repeat;
          background-size: cover;
@@ -553,7 +555,13 @@ font-size: 5rem;
          padding-bottom: 8rem;
     
     }
-    .about h3 {   font-size: 8rem; }
+
+      .intro-content{
+
+         height: 150rem;}
+
+    .about h3 {   font-size: 8rem; 
+      color:  #5F9EA0;}
     
 
 
