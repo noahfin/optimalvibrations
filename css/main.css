@@ -216,7 +216,22 @@
         margin-top: 3.1rem;
 
 
-    }
+    } .about .data li > .data-iamge{     
+	        height: 130px;
+	        width: 130px;
+	        background-color: #b4b8be;
+	        border-color: #f15a29;
+	        text-shadow: none;
+	        border-style: none;
+	        text-align: center;
+	        border-radius: 65px; 
+	        margin-right: auto;        
+	        margin-left: 66px;  
+	        margin-top: 20px;
+	        margin-bottom: 2rem;   
+	        display: block;        
+
+	    }
     .head3{
         font-weight: 400;
         font-size: 2.563rem;
@@ -504,7 +519,8 @@ float: left
 }
 .about #big-ps{
   
-    font-size: 4.2rem;
+    font-size: 5.6rem;
+	
 }
 
   .notes-content{ 
@@ -515,7 +531,7 @@ float: left
 
     }
     .about h2{
-font-size: 5rem;
+font-size: 7rem;
     }
 
        .tilte-content{ 
