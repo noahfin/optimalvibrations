@@ -531,7 +531,7 @@ float: left
 
     }
     .about h2{
-font-size: 7rem;
+font-size: 8rem;
     }
 
        .tilte-content{ 
@@ -561,8 +561,7 @@ font-size: 7rem;
                  width: 990px;
          overflow: auto;
          background-repeat: no-repeat;
-         background-size: cover;
-        
+         background-size: cover;        
          padding-bottom: 8rem;
     
     }
@@ -630,7 +629,7 @@ font-size: 7rem;
    }
   #wrapper {
   width: 978px;
-margin-left: 2rem;
+ margin-left: 2rem;
    font-size: 4.7rem;
    padding-left: 4rem;
   
@@ -660,7 +659,7 @@ footer .socal-icon{
   height: 20%;
 }
 #learn-more{
-  font-size: 4.7rem;
+  font-size: 6.7rem;
 }
 #bottom-space{
   height: 30px;
