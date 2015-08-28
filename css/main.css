@@ -335,26 +335,33 @@ font-size: 8rem;
     
    }
      .about{
-      padding-left: 65px; 
+      padding-left: 5px; 
       width: 1440px;
+     }
+     .about .content{
+      width: 100%;
+
      }
       .about p{
       padding-left: 165px; 
       
      }
 
-.top-navigation .nav-logo {
-  margin-left: 12rem;
+ .nav-logo {
+     font-size: 3.8em; 
+     color:  #00868B;
+     padding-right: .5rem;
+     margin-right: -9.5rem; 
+     width: 29rem;
+     margin-top: -50px;
    
-      
-          font-size: 5.5rem;
-
-  }
+    
+}
      
   
  
 .top-navigation .logo {
-  margin-left: 12rem;
+  margin-left: 15rem;
     width: 82px;
         height: 138px;
           font-size: 5.5rem;
@@ -369,6 +376,7 @@ font-size: 8rem;
   font-size: 6.7rem;
   list-style: none;
   padding-right: 170px;
+  float: right;
 }
 
 
