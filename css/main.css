@@ -25,7 +25,8 @@
         height: 7rem;
         width: 60%;
         padding-left: 1rem;
-        padding-right: 1rem;
+        padding-right: -15rem;
+       
         color: #838994;
 
     }
@@ -95,12 +96,19 @@
     }
 
        .nav-logo {
-     font-size: 1.8em; 
+     font-size: 2.8em; 
      color:  #00868B;
      padding-right: .5rem;
-     margin-right: 20rem; 
+     margin-right: -23.5rem; 
+     width: 29rem;
+     margin-top: -20px;
+     padding-top: -20px;
     
 }
+ .nav-logo .glyphicon{
+  height: 70px;
+  margin-top: -40px;
+ }
 
   
 
@@ -108,7 +116,7 @@
 */    
     .intro-content{
          text-align: center;
-         background-color: #e6e7e9; 
+         background-color: #6892af; 
          background-image: url('../images/big-phone-img.jpg');
          background-repeat: no-repeat;
          background-size: cover;
